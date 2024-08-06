@@ -1,3 +1,4 @@
+import os.path
 import threading
 
 from win32api import GetSystemMetrics
@@ -59,11 +60,13 @@ def button_stop():
     textDisplay.configure(text="Status: Stopped")
     #window['status'].update('Status: Stopped')
 
+basedir = os.path.dirname(__file__)
+
 app = customtkinter.CTk()
 
 app.title("Automatic Golden Cookie Clicker")
 app.geometry("225x150")
-app.wm_iconbitmap(False, "goldCookie.ico")
+app.wm_iconbitmap(False, os.path.join(basedir, "goldCookie.ico"))
 textDisplay = customtkinter.CTkLabel(app, text="Status: Stopped", width=220)
 textDisplay.grid(row=0, column=0, padx=0, pady=0)
 
