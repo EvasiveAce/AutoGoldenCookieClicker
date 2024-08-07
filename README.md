@@ -1,7 +1,7 @@
+# Auto Golden Cookie Clicker
 ![Static Badge](https://img.shields.io/badge/Python-4584b6?style=flat-square&logo=python&logoColor=FFFFFF)
 
 ![gifForGithub](https://github.com/user-attachments/assets/7e1a3904-48f3-4c2e-982b-db0d0de09b4e)
-# Auto Golden Cookie Clicker 
 
 This program is for the idle-based browser game "Cookie Clicker" by Orteil, created to automatically click golden cookies. I developed this app so I could get the [golden cookie achievements](https://cookieclicker.fandom.com/wiki/Golden_Cookie_Achievements) easier, and without a third party plugin. 
 
